@@ -1,0 +1,45 @@
+gdal_translate -a_srs EPSG:3857 p012r031_7t20000927_z19_nn10.tif  srtm_ramp2.p012r031_7t20000927_z19_nn10_geo.tif
+
+
+dalwarp -t_srs '+proj=utm +zone=11 +datum=WGS84' raw_spot.tif utm11.tif
+
+
+
+gdaltransform -t_srs EPSG:3857 p012r031_7t20000927_z19_nn10.tif  p012r031_7t20000927_z19_nn10_geo.tif
+
+
+gdalwarp -t_srs EPSG:3785 p012r031_7t20000927_z19_nn10.tif  p012r031_7t20000927_z19_nn10_geo.tif
+
+
+
+gdalwarp -s_srs '+proj=longlat +ellps=WGS84' -t_srs EPSG:3786 p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs' -t_srs EPSG:3786 p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
+
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +units=m +no_defs' -t_srs '+proj=merc +ellps=WGS84 +datum=WGS84  +units=m +nadgrids=@null +no_defs'  p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+                   
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +units=m'  -t_srs '+proj=merc +ellps=WGS84 +datum=WGS84 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=2.0 +units=m +nadgrids=@null +to_meter=1'  p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +units=m'  -t_srs ''+proj=merc +ellps=WGS84 +datum=WGS84'  p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
++proj=utm +zone=18 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs
+
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +units=m +no_defs'  -t_srs '+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs' p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs'  -t_srs '+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs -tr 100 100' p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
+gdalwarp -s_srs '+proj=utm +zone=19 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs' -t_srs '+proj=merc +ellps=GRS80 +towgs84=0.0,0.0,0.0,0.0,0.0,0.0,0.0 +no_defs ' p012r031_7t20000927_z19_nn10.tif p012r031_7t20000927_z19_nn10_geo.tif
+
+
+
+//FINAL COMMAND. CHECK ZONE IN FILENAME AND CHANGE IN +ZONE PART OF COMMAND
+gdalwarp -s_srs '+proj=utm +zone=18 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs' -t_srs '+proj=merc +ellps=GRS80 +towgs84=0.0,0.0,0.0,0.0,0.0,0.0,0.0 +no_defs ' p013r032_7t20001020_z18_nn10.tif p013r032_7t20001020_z18_nn10_geo.tif
+

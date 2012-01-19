@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D2EF93BD14C4D7D800896196 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		D2EF93BE14C4D7D800896196 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		D2EF93BF14C4D7D800896196 /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		D2EF93C014C4D7D800896196 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		D2EF93C114C4D7D800896196 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		D2EF93C214C4D7D800896196 /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		D2EF93C314C4D7D800896196 /* config.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.log; sourceTree = "<group>"; };
+		D2EF93C414C4D7D800896196 /* config.status */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.status; sourceTree = "<group>"; };
+		D2EF93C514C4D7D800896196 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		D2EF93C614C4D7D800896196 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		D2EF93C714C4D7D800896196 /* configure.com */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.com; sourceTree = "<group>"; };
+		D2EF93C814C4D7D800896196 /* contrib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = contrib; sourceTree = "<group>"; };
+		D2EF93C914C4D7D800896196 /* COPYRIGHT */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
+		D2EF93CA14C4D7D800896196 /* HOWTO-RELEASE */ = {isa = PBXFileReference; lastKnownFileType = text; path = "HOWTO-RELEASE"; sourceTree = "<group>"; };
+		D2EF93CB14C4D7D800896196 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		D2EF93CC14C4D7D800896196 /* libtiff */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libtiff; sourceTree = "<group>"; };
+		D2EF93CD14C4D7D800896196 /* libtool */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = libtool; sourceTree = "<group>"; };
+		D2EF93CE14C4D7D800896196 /* m4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = m4; sourceTree = "<group>"; };
+		D2EF93CF14C4D7D800896196 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D2EF93D014C4D7D800896196 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		D2EF93D114C4D7D800896196 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D2EF93D214C4D7D800896196 /* Makefile.vc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.vc; sourceTree = "<group>"; };
+		D2EF93D314C4D7D800896196 /* man */ = {isa = PBXFileReference; lastKnownFileType = folder; path = man; sourceTree = "<group>"; };
+		D2EF93D414C4D7D800896196 /* nmake.opt */ = {isa = PBXFileReference; lastKnownFileType = text; path = nmake.opt; sourceTree = "<group>"; };
+		D2EF93D514C4D7D800896196 /* port */ = {isa = PBXFileReference; lastKnownFileType = folder; path = port; sourceTree = "<group>"; };
+		D2EF93D614C4D7D800896196 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D2EF93D714C4D7D800896196 /* README.vms */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.vms; sourceTree = "<group>"; };
+		D2EF93D814C4D7D800896196 /* RELEASE-DATE */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RELEASE-DATE"; sourceTree = "<group>"; };
+		D2EF93D914C4D7D800896196 /* SConstruct */ = {isa = PBXFileReference; lastKnownFileType = text; path = SConstruct; sourceTree = "<group>"; };
+		D2EF93DA14C4D7D800896196 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		D2EF93DB14C4D7D800896196 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		D2EF93DC14C4D7D800896196 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		D2EF93DD14C4D7D800896196 /* VERSION */ = {isa = PBXFileReference; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D2EF93B514C4D7D800896196 = {
+			isa = PBXGroup;
+			children = (
+				D2EF93BD14C4D7D800896196 /* .DS_Store */,
+				D2EF93BE14C4D7D800896196 /* aclocal.m4 */,
+				D2EF93BF14C4D7D800896196 /* autogen.sh */,
+				D2EF93C014C4D7D800896196 /* build */,
+				D2EF93C114C4D7D800896196 /* ChangeLog */,
+				D2EF93C214C4D7D800896196 /* config */,
+				D2EF93C314C4D7D800896196 /* config.log */,
+				D2EF93C414C4D7D800896196 /* config.status */,
+				D2EF93C514C4D7D800896196 /* configure */,
+				D2EF93C614C4D7D800896196 /* configure.ac */,
+				D2EF93C714C4D7D800896196 /* configure.com */,
+				D2EF93C814C4D7D800896196 /* contrib */,
+				D2EF93C914C4D7D800896196 /* COPYRIGHT */,
+				D2EF93CA14C4D7D800896196 /* HOWTO-RELEASE */,
+				D2EF93CB14C4D7D800896196 /* html */,
+				D2EF93CC14C4D7D800896196 /* libtiff */,
+				D2EF93CD14C4D7D800896196 /* libtool */,
+				D2EF93CE14C4D7D800896196 /* m4 */,
+				D2EF93CF14C4D7D800896196 /* Makefile */,
+				D2EF93D014C4D7D800896196 /* Makefile.am */,
+				D2EF93D114C4D7D800896196 /* Makefile.in */,
+				D2EF93D214C4D7D800896196 /* Makefile.vc */,
+				D2EF93D314C4D7D800896196 /* man */,
+				D2EF93D414C4D7D800896196 /* nmake.opt */,
+				D2EF93D514C4D7D800896196 /* port */,
+				D2EF93D614C4D7D800896196 /* README */,
+				D2EF93D714C4D7D800896196 /* README.vms */,
+				D2EF93D814C4D7D800896196 /* RELEASE-DATE */,
+				D2EF93D914C4D7D800896196 /* SConstruct */,
+				D2EF93DA14C4D7D800896196 /* test */,
+				D2EF93DB14C4D7D800896196 /* TODO */,
+				D2EF93DC14C4D7D800896196 /* tools */,
+				D2EF93DD14C4D7D800896196 /* VERSION */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D2EF93BC14C4D7D800896196 /* tiff-3.9.5 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = D2EF93DE14C4D7D800896196 /* Build configuration list for PBXLegacyTarget "tiff-3.9.5" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/iliaskoen/works/DuKode/digitalGraphitti/dev/TileMap_gtif/tiff-3.9.5";
+			dependencies = (
+			);
+			name = "tiff-3.9.5";
+			passBuildSettingsInEnvironment = 1;
+			productName = "tiff-3.9.5";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		D2EF93B714C4D7D800896196 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D2EF93BA14C4D7D800896196 /* Build configuration list for PBXProject "tiff-3.9.5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2EF93B514C4D7D800896196;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2EF93BC14C4D7D800896196 /* tiff-3.9.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D2EF93B814C4D7D800896196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		D2EF93B914C4D7D800896196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		D2EF93DF14C4D7D800896196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "tiff-3.9.5";
+			};
+			name = Debug;
+		};
+		D2EF93E014C4D7D800896196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "tiff-3.9.5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EF93BA14C4D7D800896196 /* Build configuration list for PBXProject "tiff-3.9.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EF93B814C4D7D800896196 /* Debug */,
+				D2EF93B914C4D7D800896196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EF93DE14C4D7D800896196 /* Build configuration list for PBXLegacyTarget "tiff-3.9.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EF93DF14C4D7D800896196 /* Debug */,
+				D2EF93E014C4D7D800896196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2EF93B714C4D7D800896196 /* Project object */;
+}

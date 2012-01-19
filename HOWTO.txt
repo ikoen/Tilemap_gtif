@@ -1,0 +1,36 @@
+HOWTO set up TileMap project
+
+1. install GDAL
+http://www.kyngchaos.com/software/frameworks#gdal_complete
+
+2. Add GDAL to the PATH variable
+Thanks for the tip to change the PATH! Just so we have this documented (in case we ever need to write it up),
+this is command I added to .profile:
+export PATH=/Library/Frameworks/GDAL.framework/Versions/1.6/Programs:$PATH
+
+Then I reloaded the .profile:
+. ./.profile
+
+And I used echo to test the new path:
+echo $PATH
+
+I used this article for some pointers: http://www.tech-recipes.com/rx/2621/os_x_change_path_environment_variable/
+
+
+
+
+2. Build GeoTIFF
+http://www.kyngchaos.com/macosx/build/geotiff
+
+3. clone TileMap
+https://github.com/ikoen/TileMap_gtif
+
+4. open TileMap.xcodeproj
+	-Build Phasaes: check Link Binary with Libraries for UnixImageIO
+
+Transformation Notebook runs commands on downloaded tile before loading the tile into the app
+
+
+
+QUESTIONS:
+- What is the Proj4 syntax for transforming Landsat data to Google Map's system?

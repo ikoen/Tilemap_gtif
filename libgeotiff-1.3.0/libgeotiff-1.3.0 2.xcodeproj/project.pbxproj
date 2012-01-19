@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D2EF8C7F14C4CBEA00896196 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		D2EF8C8014C4CBEA00896196 /* .libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .libs; sourceTree = "<group>"; };
+		D2EF8C8114C4CBEA00896196 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		D2EF8C8214C4CBEA00896196 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		D2EF8C8314C4CBEA00896196 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		D2EF8C8414C4CBEA00896196 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		D2EF8C8514C4CBEA00896196 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		D2EF8C8614C4CBEA00896196 /* config.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.log; sourceTree = "<group>"; };
+		D2EF8C8714C4CBEA00896196 /* config.status */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.status; sourceTree = "<group>"; };
+		D2EF8C8814C4CBEA00896196 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		D2EF8C8914C4CBEA00896196 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		D2EF8C8A14C4CBEA00896196 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		D2EF8C8B14C4CBEA00896196 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		D2EF8C8C14C4CBEA00896196 /* cpl_csv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpl_csv.c; sourceTree = "<group>"; };
+		D2EF8C8D14C4CBEA00896196 /* cpl_csv.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = cpl_csv.lo; sourceTree = "<group>"; };
+		D2EF8C8E14C4CBEA00896196 /* cpl_csv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cpl_csv.o; sourceTree = "<group>"; };
+		D2EF8C8F14C4CBEA00896196 /* cpl_serv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpl_serv.c; sourceTree = "<group>"; };
+		D2EF8C9014C4CBEA00896196 /* cpl_serv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpl_serv.h; sourceTree = "<group>"; };
+		D2EF8C9114C4CBEA00896196 /* cpl_serv.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = cpl_serv.lo; sourceTree = "<group>"; };
+		D2EF8C9214C4CBEA00896196 /* cpl_serv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cpl_serv.o; sourceTree = "<group>"; };
+		D2EF8C9314C4CBEA00896196 /* csv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = csv; sourceTree = "<group>"; };
+		D2EF8C9414C4CBEA00896196 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		D2EF8C9514C4CBEA00896196 /* epsg_datum.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_datum.inc; sourceTree = "<group>"; };
+		D2EF8C9614C4CBEA00896196 /* epsg_ellipse.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_ellipse.inc; sourceTree = "<group>"; };
+		D2EF8C9714C4CBEA00896196 /* epsg_gcs.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_gcs.inc; sourceTree = "<group>"; };
+		D2EF8C9814C4CBEA00896196 /* epsg_pcs.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_pcs.inc; sourceTree = "<group>"; };
+		D2EF8C9914C4CBEA00896196 /* epsg_pm.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_pm.inc; sourceTree = "<group>"; };
+		D2EF8C9A14C4CBEA00896196 /* epsg_proj.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_proj.inc; sourceTree = "<group>"; };
+		D2EF8C9B14C4CBEA00896196 /* epsg_units.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_units.inc; sourceTree = "<group>"; };
+		D2EF8C9C14C4CBEA00896196 /* epsg_vertcs.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = epsg_vertcs.inc; sourceTree = "<group>"; };
+		D2EF8C9D14C4CBEA00896196 /* geo_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geo_config.h; sourceTree = "<group>"; };
+		D2EF8C9E14C4CBEA00896196 /* geo_config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_config.h.in; sourceTree = "<group>"; };
+		D2EF8C9F14C4CBEA00896196 /* geo_ctrans.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = geo_ctrans.inc; sourceTree = "<group>"; };
+		D2EF8CA014C4CBEA00896196 /* geo_extra.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_extra.c; sourceTree = "<group>"; };
+		D2EF8CA114C4CBEA00896196 /* geo_extra.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_extra.lo; sourceTree = "<group>"; };
+		D2EF8CA214C4CBEA00896196 /* geo_extra.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_extra.o; sourceTree = "<group>"; };
+		D2EF8CA314C4CBEA00896196 /* geo_free.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_free.c; sourceTree = "<group>"; };
+		D2EF8CA414C4CBEA00896196 /* geo_free.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_free.lo; sourceTree = "<group>"; };
+		D2EF8CA514C4CBEA00896196 /* geo_free.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_free.o; sourceTree = "<group>"; };
+		D2EF8CA614C4CBEA00896196 /* geo_get.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_get.c; sourceTree = "<group>"; };
+		D2EF8CA714C4CBEA00896196 /* geo_get.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_get.lo; sourceTree = "<group>"; };
+		D2EF8CA814C4CBEA00896196 /* geo_get.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_get.o; sourceTree = "<group>"; };
+		D2EF8CA914C4CBEA00896196 /* geo_incode_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geo_incode_defs.h; sourceTree = "<group>"; };
+		D2EF8CAA14C4CBEA00896196 /* geo_keyp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geo_keyp.h; sourceTree = "<group>"; };
+		D2EF8CAB14C4CBEA00896196 /* geo_names.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_names.c; sourceTree = "<group>"; };
+		D2EF8CAC14C4CBEA00896196 /* geo_names.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_names.lo; sourceTree = "<group>"; };
+		D2EF8CAD14C4CBEA00896196 /* geo_names.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_names.o; sourceTree = "<group>"; };
+		D2EF8CAE14C4CBEA00896196 /* geo_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_new.c; sourceTree = "<group>"; };
+		D2EF8CAF14C4CBEA00896196 /* geo_new.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_new.lo; sourceTree = "<group>"; };
+		D2EF8CB014C4CBEA00896196 /* geo_new.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_new.o; sourceTree = "<group>"; };
+		D2EF8CB114C4CBEA00896196 /* geo_normalize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_normalize.c; sourceTree = "<group>"; };
+		D2EF8CB214C4CBEA00896196 /* geo_normalize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geo_normalize.h; sourceTree = "<group>"; };
+		D2EF8CB314C4CBEA00896196 /* geo_normalize.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_normalize.lo; sourceTree = "<group>"; };
+		D2EF8CB414C4CBEA00896196 /* geo_normalize.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_normalize.o; sourceTree = "<group>"; };
+		D2EF8CB514C4CBEA00896196 /* geo_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_print.c; sourceTree = "<group>"; };
+		D2EF8CB614C4CBEA00896196 /* geo_print.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_print.lo; sourceTree = "<group>"; };
+		D2EF8CB714C4CBEA00896196 /* geo_print.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_print.o; sourceTree = "<group>"; };
+		D2EF8CB814C4CBEA00896196 /* geo_set.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_set.c; sourceTree = "<group>"; };
+		D2EF8CB914C4CBEA00896196 /* geo_set.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_set.lo; sourceTree = "<group>"; };
+		D2EF8CBA14C4CBEA00896196 /* geo_set.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_set.o; sourceTree = "<group>"; };
+		D2EF8CBB14C4CBEA00896196 /* geo_simpletags.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_simpletags.c; sourceTree = "<group>"; };
+		D2EF8CBC14C4CBEA00896196 /* geo_simpletags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geo_simpletags.h; sourceTree = "<group>"; };
+		D2EF8CBD14C4CBEA00896196 /* geo_simpletags.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_simpletags.lo; sourceTree = "<group>"; };
+		D2EF8CBE14C4CBEA00896196 /* geo_simpletags.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_simpletags.o; sourceTree = "<group>"; };
+		D2EF8CBF14C4CBEA00896196 /* geo_tiffp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_tiffp.c; sourceTree = "<group>"; };
+		D2EF8CC014C4CBEA00896196 /* geo_tiffp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geo_tiffp.h; sourceTree = "<group>"; };
+		D2EF8CC114C4CBEA00896196 /* geo_tiffp.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_tiffp.lo; sourceTree = "<group>"; };
+		D2EF8CC214C4CBEA00896196 /* geo_tiffp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_tiffp.o; sourceTree = "<group>"; };
+		D2EF8CC314C4CBEA00896196 /* geo_trans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_trans.c; sourceTree = "<group>"; };
+		D2EF8CC414C4CBEA00896196 /* geo_trans.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_trans.lo; sourceTree = "<group>"; };
+		D2EF8CC514C4CBEA00896196 /* geo_trans.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_trans.o; sourceTree = "<group>"; };
+		D2EF8CC614C4CBEA00896196 /* geo_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo_write.c; sourceTree = "<group>"; };
+		D2EF8CC714C4CBEA00896196 /* geo_write.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geo_write.lo; sourceTree = "<group>"; };
+		D2EF8CC814C4CBEA00896196 /* geo_write.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geo_write.o; sourceTree = "<group>"; };
+		D2EF8CC914C4CBEA00896196 /* geokeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geokeys.h; sourceTree = "<group>"; };
+		D2EF8CCA14C4CBEA00896196 /* geokeys.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = geokeys.inc; sourceTree = "<group>"; };
+		D2EF8CCB14C4CBEA00896196 /* geonames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geonames.h; sourceTree = "<group>"; };
+		D2EF8CCC14C4CBEA00896196 /* geotiff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geotiff.h; sourceTree = "<group>"; };
+		D2EF8CCD14C4CBEA00896196 /* geotiff_proj4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geotiff_proj4.c; sourceTree = "<group>"; };
+		D2EF8CCE14C4CBEA00896196 /* geotiff_proj4.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = geotiff_proj4.lo; sourceTree = "<group>"; };
+		D2EF8CCF14C4CBEA00896196 /* geotiff_proj4.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = geotiff_proj4.o; sourceTree = "<group>"; };
+		D2EF8CD014C4CBEA00896196 /* geotiffio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geotiffio.h; sourceTree = "<group>"; };
+		D2EF8CD114C4CBEA00896196 /* geovalues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geovalues.h; sourceTree = "<group>"; };
+		D2EF8CD214C4CBEA00896196 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		D2EF8CD314C4CBEA00896196 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		D2EF8CD414C4CBEA00896196 /* libgeotiff-1.3.0.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "libgeotiff-1.3.0.xcodeproj"; sourceTree = "<group>"; };
+		D2EF8CD714C4CBEA00896196 /* libgeotiff.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libgeotiff.la; sourceTree = "<group>"; };
+		D2EF8CD814C4CBEA00896196 /* libtool */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = libtool; sourceTree = "<group>"; };
+		D2EF8CD914C4CBEA00896196 /* libxtiff */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libxtiff; sourceTree = "<group>"; };
+		D2EF8CDA14C4CBEA00896196 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2EF8CDB14C4CBEA00896196 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		D2EF8CDC14C4CBEA00896196 /* m4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = m4; sourceTree = "<group>"; };
+		D2EF8CDD14C4CBEA00896196 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D2EF8CDE14C4CBEA00896196 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		D2EF8CDF14C4CBEA00896196 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D2EF8CE014C4CBEA00896196 /* makefile.vc */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.vc; sourceTree = "<group>"; };
+		D2EF8CE114C4CBEA00896196 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		D2EF8CE214C4CBEA00896196 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		D2EF8CE314C4CBEA00896196 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D2EF8CE414C4CBEA00896196 /* README.WIN */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.WIN; sourceTree = "<group>"; };
+		D2EF8CE514C4CBEA00896196 /* README_BIN */ = {isa = PBXFileReference; lastKnownFileType = text; path = README_BIN; sourceTree = "<group>"; };
+		D2EF8CE614C4CBEA00896196 /* stamp-h1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-h1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D2EF8C7714C4CBEA00896196 = {
+			isa = PBXGroup;
+			children = (
+				D2EF8C7F14C4CBEA00896196 /* .DS_Store */,
+				D2EF8C8014C4CBEA00896196 /* .libs */,
+				D2EF8C8114C4CBEA00896196 /* aclocal.m4 */,
+				D2EF8C8214C4CBEA00896196 /* AUTHORS */,
+				D2EF8C8314C4CBEA00896196 /* bin */,
+				D2EF8C8414C4CBEA00896196 /* ChangeLog */,
+				D2EF8C8514C4CBEA00896196 /* config.guess */,
+				D2EF8C8614C4CBEA00896196 /* config.log */,
+				D2EF8C8714C4CBEA00896196 /* config.status */,
+				D2EF8C8814C4CBEA00896196 /* config.sub */,
+				D2EF8C8914C4CBEA00896196 /* configure */,
+				D2EF8C8A14C4CBEA00896196 /* configure.ac */,
+				D2EF8C8B14C4CBEA00896196 /* COPYING */,
+				D2EF8C8C14C4CBEA00896196 /* cpl_csv.c */,
+				D2EF8C8D14C4CBEA00896196 /* cpl_csv.lo */,
+				D2EF8C8E14C4CBEA00896196 /* cpl_csv.o */,
+				D2EF8C8F14C4CBEA00896196 /* cpl_serv.c */,
+				D2EF8C9014C4CBEA00896196 /* cpl_serv.h */,
+				D2EF8C9114C4CBEA00896196 /* cpl_serv.lo */,
+				D2EF8C9214C4CBEA00896196 /* cpl_serv.o */,
+				D2EF8C9314C4CBEA00896196 /* csv */,
+				D2EF8C9414C4CBEA00896196 /* depcomp */,
+				D2EF8C9514C4CBEA00896196 /* epsg_datum.inc */,
+				D2EF8C9614C4CBEA00896196 /* epsg_ellipse.inc */,
+				D2EF8C9714C4CBEA00896196 /* epsg_gcs.inc */,
+				D2EF8C9814C4CBEA00896196 /* epsg_pcs.inc */,
+				D2EF8C9914C4CBEA00896196 /* epsg_pm.inc */,
+				D2EF8C9A14C4CBEA00896196 /* epsg_proj.inc */,
+				D2EF8C9B14C4CBEA00896196 /* epsg_units.inc */,
+				D2EF8C9C14C4CBEA00896196 /* epsg_vertcs.inc */,
+				D2EF8C9D14C4CBEA00896196 /* geo_config.h */,
+				D2EF8C9E14C4CBEA00896196 /* geo_config.h.in */,
+				D2EF8C9F14C4CBEA00896196 /* geo_ctrans.inc */,
+				D2EF8CA014C4CBEA00896196 /* geo_extra.c */,
+				D2EF8CA114C4CBEA00896196 /* geo_extra.lo */,
+				D2EF8CA214C4CBEA00896196 /* geo_extra.o */,
+				D2EF8CA314C4CBEA00896196 /* geo_free.c */,
+				D2EF8CA414C4CBEA00896196 /* geo_free.lo */,
+				D2EF8CA514C4CBEA00896196 /* geo_free.o */,
+				D2EF8CA614C4CBEA00896196 /* geo_get.c */,
+				D2EF8CA714C4CBEA00896196 /* geo_get.lo */,
+				D2EF8CA814C4CBEA00896196 /* geo_get.o */,
+				D2EF8CA914C4CBEA00896196 /* geo_incode_defs.h */,
+				D2EF8CAA14C4CBEA00896196 /* geo_keyp.h */,
+				D2EF8CAB14C4CBEA00896196 /* geo_names.c */,
+				D2EF8CAC14C4CBEA00896196 /* geo_names.lo */,
+				D2EF8CAD14C4CBEA00896196 /* geo_names.o */,
+				D2EF8CAE14C4CBEA00896196 /* geo_new.c */,
+				D2EF8CAF14C4CBEA00896196 /* geo_new.lo */,
+				D2EF8CB014C4CBEA00896196 /* geo_new.o */,
+				D2EF8CB114C4CBEA00896196 /* geo_normalize.c */,
+				D2EF8CB214C4CBEA00896196 /* geo_normalize.h */,
+				D2EF8CB314C4CBEA00896196 /* geo_normalize.lo */,
+				D2EF8CB414C4CBEA00896196 /* geo_normalize.o */,
+				D2EF8CB514C4CBEA00896196 /* geo_print.c */,
+				D2EF8CB614C4CBEA00896196 /* geo_print.lo */,
+				D2EF8CB714C4CBEA00896196 /* geo_print.o */,
+				D2EF8CB814C4CBEA00896196 /* geo_set.c */,
+				D2EF8CB914C4CBEA00896196 /* geo_set.lo */,
+				D2EF8CBA14C4CBEA00896196 /* geo_set.o */,
+				D2EF8CBB14C4CBEA00896196 /* geo_simpletags.c */,
+				D2EF8CBC14C4CBEA00896196 /* geo_simpletags.h */,
+				D2EF8CBD14C4CBEA00896196 /* geo_simpletags.lo */,
+				D2EF8CBE14C4CBEA00896196 /* geo_simpletags.o */,
+				D2EF8CBF14C4CBEA00896196 /* geo_tiffp.c */,
+				D2EF8CC014C4CBEA00896196 /* geo_tiffp.h */,
+				D2EF8CC114C4CBEA00896196 /* geo_tiffp.lo */,
+				D2EF8CC214C4CBEA00896196 /* geo_tiffp.o */,
+				D2EF8CC314C4CBEA00896196 /* geo_trans.c */,
+				D2EF8CC414C4CBEA00896196 /* geo_trans.lo */,
+				D2EF8CC514C4CBEA00896196 /* geo_trans.o */,
+				D2EF8CC614C4CBEA00896196 /* geo_write.c */,
+				D2EF8CC714C4CBEA00896196 /* geo_write.lo */,
+				D2EF8CC814C4CBEA00896196 /* geo_write.o */,
+				D2EF8CC914C4CBEA00896196 /* geokeys.h */,
+				D2EF8CCA14C4CBEA00896196 /* geokeys.inc */,
+				D2EF8CCB14C4CBEA00896196 /* geonames.h */,
+				D2EF8CCC14C4CBEA00896196 /* geotiff.h */,
+				D2EF8CCD14C4CBEA00896196 /* geotiff_proj4.c */,
+				D2EF8CCE14C4CBEA00896196 /* geotiff_proj4.lo */,
+				D2EF8CCF14C4CBEA00896196 /* geotiff_proj4.o */,
+				D2EF8CD014C4CBEA00896196 /* geotiffio.h */,
+				D2EF8CD114C4CBEA00896196 /* geovalues.h */,
+				D2EF8CD214C4CBEA00896196 /* INSTALL */,
+				D2EF8CD314C4CBEA00896196 /* install-sh */,
+				D2EF8CD414C4CBEA00896196 /* libgeotiff-1.3.0.xcodeproj */,
+				D2EF8CD714C4CBEA00896196 /* libgeotiff.la */,
+				D2EF8CD814C4CBEA00896196 /* libtool */,
+				D2EF8CD914C4CBEA00896196 /* libxtiff */,
+				D2EF8CDA14C4CBEA00896196 /* LICENSE */,
+				D2EF8CDB14C4CBEA00896196 /* ltmain.sh */,
+				D2EF8CDC14C4CBEA00896196 /* m4 */,
+				D2EF8CDD14C4CBEA00896196 /* Makefile */,
+				D2EF8CDE14C4CBEA00896196 /* Makefile.am */,
+				D2EF8CDF14C4CBEA00896196 /* Makefile.in */,
+				D2EF8CE014C4CBEA00896196 /* makefile.vc */,
+				D2EF8CE114C4CBEA00896196 /* missing */,
+				D2EF8CE214C4CBEA00896196 /* NEWS */,
+				D2EF8CE314C4CBEA00896196 /* README */,
+				D2EF8CE414C4CBEA00896196 /* README.WIN */,
+				D2EF8CE514C4CBEA00896196 /* README_BIN */,
+				D2EF8CE614C4CBEA00896196 /* stamp-h1 */,
+			);
+			sourceTree = "<group>";
+		};
+		D2EF8CD514C4CBEA00896196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D2EF8C7E14C4CBEA00896196 /* libgeotiff-1.3.0 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = D2EF8CEB14C4CBEA00896196 /* Build configuration list for PBXLegacyTarget "libgeotiff-1.3.0" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/iliaskoen/works/DuKode/digitalGraphitti/dev/TileMap_gtif/libgeotiff-1.3.0";
+			dependencies = (
+			);
+			name = "libgeotiff-1.3.0";
+			passBuildSettingsInEnvironment = 1;
+			productName = "libgeotiff-1.3.0";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		D2EF8C7914C4CBEA00896196 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D2EF8C7C14C4CBEA00896196 /* Build configuration list for PBXProject "libgeotiff-1.3.0 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2EF8C7714C4CBEA00896196;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D2EF8CD514C4CBEA00896196 /* Products */;
+					ProjectRef = D2EF8CD414C4CBEA00896196 /* libgeotiff-1.3.0.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2EF8C7E14C4CBEA00896196 /* libgeotiff-1.3.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D2EF8C7A14C4CBEA00896196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		D2EF8C7B14C4CBEA00896196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		D2EF8CEC14C4CBEA00896196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "libgeotiff-1.3.0";
+			};
+			name = Debug;
+		};
+		D2EF8CED14C4CBEA00896196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "libgeotiff-1.3.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EF8C7C14C4CBEA00896196 /* Build configuration list for PBXProject "libgeotiff-1.3.0 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EF8C7A14C4CBEA00896196 /* Debug */,
+				D2EF8C7B14C4CBEA00896196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EF8CEB14C4CBEA00896196 /* Build configuration list for PBXLegacyTarget "libgeotiff-1.3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EF8CEC14C4CBEA00896196 /* Debug */,
+				D2EF8CED14C4CBEA00896196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2EF8C7914C4CBEA00896196 /* Project object */;
+}
